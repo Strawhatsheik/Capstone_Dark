@@ -1,0 +1,27 @@
+﻿Build started...
+1>------ Skipped Build: Project: UE4, Configuration: BuiltWithUnrealBuildTool Win32 ------
+1>Project not selected to build for this solution configuration 
+2>------ Build started: Project: Dark, Configuration: Development_Editor x64 ------
+2>Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Strawhatsheik\Desktop\School - SNHU\Project for CAP\DarkProject\Dark).
+2>Building DarkEditor...
+2>Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+2>[Upgrade]
+2>[Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+2>[Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+2>[Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+2>[Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+2>[Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in DarkEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+2>[Upgrade]
+2>Building 4 actions with 8 processes...
+2>  [1/4] Room.cpp
+2>C:\Users\Strawhatsheik\Desktop\School - SNHU\Project for CAP\DarkProject\Dark\Source\Dark\Room.cpp(78): warning C4458: declaration of 'LevelInfo' hides class member
+2>  C:\Users\Strawhatsheik\Desktop\School - SNHU\Project for CAP\DarkProject\Dark\Source\Dark\Room.h(47): note: see declaration of 'ARoom::LevelInfo'
+2>  [2/4] UE4Editor-Dark-0002.lib
+2>     Creating library C:\Users\Strawhatsheik\Desktop\School - SNHU\Project for CAP\DarkProject\Dark\Intermediate\Build\Win64\UE4Editor\Development\Dark\UE4Editor-Dark-0002.lib and object C:\Users\Strawhatsheik\Desktop\School - SNHU\Project for CAP\DarkProject\Dark\Intermediate\Build\Win64\UE4Editor\Development\Dark\UE4Editor-Dark-0002.exp
+2>  [3/4] UE4Editor-Dark-0002.dll
+2>     Creating library C:\Users\Strawhatsheik\Desktop\School - SNHU\Project for CAP\DarkProject\Dark\Intermediate\Build\Win64\UE4Editor\Development\Dark\UE4Editor-Dark-0002.suppressed.lib and object C:\Users\Strawhatsheik\Desktop\School - SNHU\Project for CAP\DarkProject\Dark\Intermediate\Build\Win64\UE4Editor\Development\Dark\UE4Editor-Dark-0002.suppressed.exp
+2>  [4/4] DarkEditor.target
+2>Total time in Parallel executor: 4.50 seconds
+2>Total execution time: 5.33 seconds
+2>Done building project "Dark.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 1 skipped ==========
